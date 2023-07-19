@@ -49,12 +49,7 @@ const useStyles = createStyles((theme) => ({
     },
   },
 
-  linkActive: {
-    '&, &:hover': {
-      backgroundColor: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).background,
-      color: theme.fn.variant({ variant: 'light', color: theme.primaryColor }).color,
-    },
-  },
+  
 }));
 
 function NavigationHeader({ onSearch, search }) {
